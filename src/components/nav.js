@@ -38,6 +38,8 @@ const Nav = (props) => {
     return (
         <>
             <nav className="navigation">
+
+                {/* New update on HOME - ABOUT THE AUHTOR navigation area */}
                 <div className="Navigation-Background">
 
                 <li>
@@ -57,6 +59,12 @@ const Nav = (props) => {
                         <img alt="author-logo" src={Logo} />
                     </Link>
                 </li>
+                
+                {/* </div> */}
+                {/* End of Navigation area using [DIV]*/}
+
+                {/* New update on ABOUT THE BOOK - CONTACT navigation area */}
+                {/* <div className="Navigation-Background"> */}
 
                 <li>
                     <Link to="/about-the-book">
@@ -70,12 +78,15 @@ const Nav = (props) => {
 					</Link>
                 </li>
                 
-                <li>
+                {/* <li>
                     <Link to="/">
                         <img alt="Navigation Background" src={NavBackground} />
                     </Link>
-                </li>
+                </li> */}
+
                 </div>
+                {/* End of the navigation area using [DIV] */}
+
             </nav>
            
 
